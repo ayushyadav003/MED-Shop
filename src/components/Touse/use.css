@@ -1,0 +1,33 @@
+.Container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10%;
+}   
+.image{
+    width: 50%;
+    height: 46rem;
+
+}
+.text{
+    padding: 7rem;
+    background-color: rgb(250, 250, 235);
+}
+
+
+@media screen and (max-width: 900px) {
+    .Container{
+        display: grid;
+        width: 100%;
+        margin-bottom: 10%;
+    }   
+    .image{
+        width: auto;
+        height: 30rem;
+    
+    }
+    .text{
+        padding: 2rem;
+        background-color: rgb(250, 250, 235);
+    }
+    
+}

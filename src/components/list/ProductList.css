@@ -1,0 +1,17 @@
+.item1{
+    border: none;
+    font-family: 'Lucida Sans-sarif';
+    width: 90%;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .item1{
+        /* display: none; */
+        border: none;
+        font-family: 'Lucida Sans-sarif';
+        width: 90%;
+    }
+    
+}

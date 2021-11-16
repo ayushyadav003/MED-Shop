@@ -1,0 +1,30 @@
+    .header{
+    display: flex;
+    justify-content: center;
+    background-color:#242526;
+    color:rgb(248, 239, 239);
+    height: 48px;
+    cursor: pointer;
+    font-family: sans-serif;
+    position: relative;
+    height: fit-content;
+}
+
+
+.headerItem{
+    display: flex;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 10px;
+ }
+
+ @media screen and (max-width:900px) {
+    .headerItem{
+        display: flex;
+        font-size: 14px;
+        font-weight: lighter;
+        padding-top: 12px;
+        padding-left: 25px;
+        padding-right: 20px;
+     }
+ }

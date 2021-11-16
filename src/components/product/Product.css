@@ -1,0 +1,30 @@
+.center{
+    display: flex;
+    padding-top: 5%;
+}
+
+.product{
+    width: 100%;
+    padding: 7% 2.5% 0 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.left{
+    width: auto;
+    padding-left: 3%;
+}   
+
+@media screen and (max-width:900px) {
+    .center{
+        display: grid;
+        padding-top: 0;
+        padding-left: 10px;
+    }
+    .product{
+        width: 100%;
+        padding: 0 0 0 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+}

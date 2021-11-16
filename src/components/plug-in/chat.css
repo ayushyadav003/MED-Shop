@@ -1,0 +1,26 @@
+.chat{
+    width: fit-content;
+    height: 35px;
+    padding: 6px 6px 0 6px;
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+    border-radius: 40px;
+    position: fixed;
+    margin: 24% 0 0 95%; 
+}
+
+@media screen and (max-width:800px) {
+    .chat{
+        width: fit-content;
+        height: 35px;
+        padding: 4px 6px 0 6px;
+        color: white;
+        background-color: black;
+        border: 1px solid grey;
+        border-radius: 40px;
+        position: fixed;
+        margin: 125% 0 0 86%; 
+    }
+    
+}
